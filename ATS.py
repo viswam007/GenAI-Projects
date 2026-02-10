@@ -8,7 +8,7 @@
 
 # ------------------------------------------------------------
  
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 import streamlit as st
 
@@ -26,7 +26,7 @@ from langchain_openai import ChatOpenAI
  
 # -------------------- Setup --------------------
 
-load_dotenv()  # loads OPENAI_API_KEY from .env if present
+#load_dotenv()  # loads OPENAI_API_KEY from .env if present
  
 # Support Streamlit secrets too
 
